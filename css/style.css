@@ -1,0 +1,128 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container.nav{
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    color: grey;
+    background-color: white;
+    position: fixed;
+}
+
+.container.nav .nav-top{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.logo-title h2{
+    font-weight: 400;
+}
+
+.logo-title img{
+    width: 80px;
+    margin-right: 5px;
+}
+
+.account span i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: grey;
+}
+
+.nav-bot ul{
+    padding: 0;
+}
+
+.nav-bot ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.nav-bot ul li:first-of-type{
+    margin-left: 0;
+}
+
+.nav-bot ul li:last-of-type{
+    color: blue;
+    border-bottom: 2px solid blue;    
+}
+
+.questions{
+    max-width: 978px;
+    margin: 0 auto;
+    padding-top: 96px;
+    padding-bottom: 30px;
+    letter-spacing: .2px;
+    line-height: 24px;
+}
+
+.questions h2{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+footer .container{
+    background-color:#F5F5F5;
+}
+
+.container .footer{
+    max-width: 978px;
+    margin: auto;
+    height: 40px;
+}
+
+.nav-footer ul{
+    padding: 0;
+}
+
+.nav-footer ul li{
+    display: inline-block;
+}
+
+.nav-footer ul li:not(:first-child):before {
+    content: "\0000b7";
+    padding: 0 5px;
+}
+
+.footer{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+    color: grey;
+}
+
+.footer .languages{
+    height: 20px;
+}
+
+.footer .languages img{
+    margin-right: 5px;
+}
+
+#language{
+    width: 180px;
+}
